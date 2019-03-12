@@ -1,6 +1,6 @@
 {
     "name": "node-open-mining-portal",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
     "keywords": [
         "stratum",
@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/foxer666/node-open-mining-portal",
+    "homepage": "https://github.com/exoboosters/node-open-mining-portal",
     "bugs": {
-        "url": "https://github.com/foxer666/node-open-mining-portal/issues"
+        "url": "https://github.com/exoboosters/node-open-mining-portal/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -23,7 +23,8 @@
         "foxer666",
         "vekexasia",
         "TheSeven",
-        "Kris Klosterman"
+        "Kris Klosterman",
+		"exoboosters"
     ],
     "main": "init.js",
     "bin": {
@@ -31,7 +32,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/foxer666/node-open-mining-portal.git"
+        "url": "https://github.com/exoboosters/node-open-mining-portal.git"
     },
     "dependencies": {
         "async": "^2.5.0",
@@ -48,7 +49,7 @@
         "nonce": "^1.0.4",
         "redis": "^2.7.1",
         "request": "^2.83.0",
-        "stratum-pool": "git://github.com/foxer666/node-stratum-pool.git",
+        "stratum-pool": "git://github.com/exoboosters/node-stratum-pool.git",
         "winston": "^3.0.0-rc1",
         "winston-daily-rotate-file": "^2.0.0-rc.2"
     },
