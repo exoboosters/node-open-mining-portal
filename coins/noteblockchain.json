@@ -1,0 +1,5 @@
+{
+    "name": "NoteBlockChain",
+    "symbol": "NOTE",
+    "algorithm": "scrypt"
+}
